@@ -1,0 +1,26 @@
+Title: Harkirat's Park Runs
+Tag : Medium
+
+Description:
+Harkirat runs daily along the circular boundary of a park with a parameter of k.
+He diligently notes down each day's running distance in his diary.
+After n days of continuous running, Harkirat decides to take a day off to rest.
+During this break, he starts analyzing his diary to find pairs of days whose combined running distance forms a complete cycle around the park.
+Help Harkirat to find count of those pairs.
+
+Input:
+
+An array of strings arr (1 ≤ arr.length ≤ 10^5, 1 ≤ |arr[i]| ≤ 10^9) and an integer k
+denoting the park length.
+
+Output:
+An integer representing the count of unique pairs.
+
+Example :
+
+Input: k = 10,distances = [2, 8, 5, 5, 4, 6]
+Output: 3
+Explanation: Possible pairs forming complete cycles: (2, 8) (cycle of 10 units), (5, 5) (cycle of 10 units), (4, 6) (cycle of 10 units).
+
+Input: k = 12, distances = [3, 6, 9, 4]
+Output: 1

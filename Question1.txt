@@ -1,0 +1,27 @@
+Title: Maximum Score String
+Tag : Easy-Medium
+
+Description:
+Given an array of strings, return the string with the maximum score. 
+The score of a string is computed as the sum of the ASCII values of its characters multiplied by their first occurrence index in the string (1-based indexing). 
+If two strings have the same score, select the lexicographically smaller string.
+
+Input:
+
+An array of strings arr (1 ≤ |arr| ≤ 100, 1 ≤ |arr[i]| ≤ 100)
+where ∣arr[i]∣ is the length of the i-th string.
+
+Output:
+
+A single string, the one with the maximum score (or lexicographically smallest if scores are tied).
+
+Example :
+
+Input:
+["abc", "bcd", "a","bac","cdb"]
+
+Output:
+bcd
+
+Explanation: string "bcd" and "cdb" has the same ASCII score but "bcd" is lexicographically smaller.
+
