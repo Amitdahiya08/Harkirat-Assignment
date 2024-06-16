@@ -10,7 +10,7 @@ Help Harkirat to find count of those pairs.
 
 Input:
 
-An array of strings arr (1 ≤ arr.length ≤ 10^5, 1 ≤ |arr[i]| ≤ 10^9) and an integer k
+An array of strings arr (1 ≤ arr.length ≤ 10^5, 1 ≤ |arr[i]| ≤ 10^9) and an integer k (1<=k<=100)
 denoting the park length.
 
 Output:
